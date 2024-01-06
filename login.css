@@ -1,0 +1,44 @@
+:root{
+    --headcolor : #3a5aff;
+    --fontlale : lalezar;
+    --fontirs : irs;
+    --fontbahman : bahman;
+    --bodycolor: #000622;
+    --bodycolor2: #EBB40F;
+    --mfd : @media(min-width:300px);
+    --color3: #D45814;
+    --color4: #1C39BB;
+    --color5: #00A693;
+  }
+  @font-face {
+      font-family: lalezar;
+      src: url(Lalezar-Regular.ttf);
+  }
+  @font-face {
+      font-family: irs;
+      src: url(IRANSansWeb_Bold.ttf);
+  }
+  @font-face {
+      font-family: bahman;
+      src: url(Bahman\ 1.ttf);
+  }
+body{
+    background: var(--bodycolor2);
+}
+@media (min-width:300px){
+
+}
+div {
+    width: 29px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    margin-left: 332px;
+    cursor: pointer;
+  }
